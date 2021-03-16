@@ -1,9 +1,5 @@
 package hu.nive.ujratervezes.zarovizsga.kennel;
 
-import hu.nive.ujratervezes.zarovizsga.dogtypes.Beagle;
-import hu.nive.ujratervezes.zarovizsga.dogtypes.Dog;
-import hu.nive.ujratervezes.zarovizsga.dogtypes.Husky;
-import hu.nive.ujratervezes.zarovizsga.dogtypes.Kennel;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

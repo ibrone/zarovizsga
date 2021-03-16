@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.zarovizsga.dogtypes;
+package hu.nive.ujratervezes.zarovizsga.kennel;
 
 import java.util.ArrayList;
 import java.util.List;

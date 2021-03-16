@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.zarovizsga.dogtypes;
+package hu.nive.ujratervezes.zarovizsga.kennel;
 
 public class Beagle extends Dog{
     public Beagle(String name) {

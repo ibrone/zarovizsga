@@ -11,9 +11,15 @@ public class DigitsCounter {
 
      int getCountOfDigits(String s){
          Map<Integer, Integer> numbers = new HashMap<>();
+
          try {
+             char[] readedCharacters= s.toCharArray();
 
-
+             for (int i =0;i<readedCharacters.length;i++){
+                 if (!Character.isDigit(readedCharacters[i])){
+                     throw new NumberFormatException ("Is not number");
+                 }
+             }
              int[] intArray = Arrays.stream(s.split(","))
                      .mapToInt(Integer::parseInt)
                      .toArray();

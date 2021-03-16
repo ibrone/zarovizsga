@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.zarovizsga.dogtypes;
+package hu.nive.ujratervezes.zarovizsga.kennel;
 
 public abstract class  Dog {
     protected String name;
